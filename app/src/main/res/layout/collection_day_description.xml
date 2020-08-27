@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@color/colorOfDesc">
+
+    <TextView
+        android:id="@+id/collection_day"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#5D4037"
+        android:gravity="center"
+        android:lineSpacingExtra="2.5dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.143"
+        tools:text="THU\nJUN 30\n14:00" />
+
+    <!--Colored view dividers-->
+    <View
+        android:layout_width="1.3dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/collection_day"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0.7dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/collection_day"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/garbageTypeImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/collection_day"
+        app:layout_constraintDimensionRatio="W,1:1"
+        app:layout_constraintStart_toEndOf="@id/collection_day"
+        app:layout_constraintTop_toTopOf="@id/collection_day">
+
+        <ImageView
+            android:id="@+id/garbageIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:tint="@color/grey"
+            app:srcCompat="@drawable/dustbin" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/garbageDetail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/garbageTypeImage"
+
+        app:layout_constraintStart_toEndOf="@id/garbageTypeImage"
+        app:layout_constraintTop_toTopOf="@id/garbageTypeImage"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:id="@+id/garbageDetailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            tools:text="Paper recycling bag" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

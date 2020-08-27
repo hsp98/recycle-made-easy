@@ -1,0 +1,56 @@
+{
+	"catagory" :[
+			{
+				"Household" : 
+						{
+							"Blanket" : ["Donation","A large piece of wollen or similar material used as a covering on a bed or elsewhere for warmth."],
+							"CDs and DVDs" : ["Garbage","It is estimated that it will take over 1 million years for a CD to completely decompose in a landfill."],
+							"Clothing and Textiles" : ["Donation","If in a good condition, donate to a charity."],
+							"Hair" : ["Garbage","Put this item in garbage bag"]
+						}
+			},
+			{
+				"Plastics" :
+						{
+							"Plastic Bag" : ["Garbage","Plastics that can be scrunched and cannot be hold their shape cannot be recycled."],
+							"Plastic Bottle" : ["Garbage","Always rinse out before recycling."],
+							"Plastic Container" : ["Garbage","The energy saved by recycling one plastic container will power a computer for 25 minutes."]
+
+						}
+			},
+			{
+				"Food" :
+						{
+							"Cooking Oil" : ["Organic","Coucil's organise one day eveny for safe disposal of many materials. Please check with your council for events."],
+							"Bread" : ["Organic","It can be placed in organic dustbin. Or reuse stale bread for bread crumbs."],
+							"Tea Bag" :["Organic","Dispose in organic dustbin."]
+						}
+			},
+			{
+				"Electronics" :
+						{
+							"Mobile Phone" : ["Drop","There are more than 23 million old and unused mobile phones stashed away in houses. If recycled, the estimated greenhouse benefit created would be equivalent to planting 111,000 trees."],
+							"Razor" : ["Garbage","Dispose in clear garbage bag"],
+							"Radio" : ["Electronic","Drop off electronic waste for recycling"]
+
+						}
+
+			},
+			{
+				"Paper and Cardboard" :
+						{
+							"Coffee Cup" : ["Garbage","Many coffee cups come with an internal plastic lining that makes non-recyclable, although many concils accept rinsed disposable coffee cups. Please check with your concil."],
+							"Cardboard Box" : ["Paper","Flatten the box before recycling. Producing cardboard from recycled materials uses 99% less water and 50% less energy than if produced from raw material."]
+
+						}
+			},
+			{
+				"Garden" :
+						{
+							"Branches(Small)" : ["Organic","Dispose in organic bin"],
+							"Flower Cutting" : ["Organic","Dispose in organic bin"],
+							"Wood Ash" : ["Organic","Dispose in organic bin. Cool it first before disposing of in compost or bin."]
+						}
+			}
+		] 
+}

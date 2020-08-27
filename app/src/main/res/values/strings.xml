@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Recycle Made Easy</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="label">Recycle Made Easy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="search_category">Search Category</string>
+    <string name="features">Features</string>
+    <string name="feature_details"> The application provides the list of different items as well as search option,
+        where you can either explore the list or search for items from the product list to get its recycling information.</string>
+    <string name="feature_details2">
+        To make it easier for you to classify the items, we have incorporated scan an object functionality,
+        which gives the item description and the optimal disposal container. </string>
+    <string name="feature_details3">You can view the calendar to know the pickup date of the garbage collection</string>
+    <string name="feature_details4">You can know the location where you donate your old clothes and shoes</string>
+    <string name="help">Help</string>
+    <string name="about_us_desc"> The application is developed by dalhousie students. If you face any issues while using the application, please send us query on recyclemadeeasy@dal.com</string>
+</resources>

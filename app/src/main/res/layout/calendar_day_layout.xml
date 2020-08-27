@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/month_bg"
+    android:id="@+id/day_layout"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/days_bg"
+        android:layout_margin="1dp">
+    <TextView
+        android:id="@+id/calendarDayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        tools:text="22" />
+
+    <View
+        android:id="@+id/nonPaperRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="24dp"
+        android:background="@color/blue" />
+
+        <View
+        android:id="@+id/paperRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="17dp"
+        android:background="@color/white" />
+
+    <View
+        android:id="@+id/garbageRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:background="@color/light_brown" />
+    <View
+        android:id="@+id/organicRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="3dp"
+        android:background="@color/green" />
+<!--    <View-->
+<!--        android:id="@+id/selected"-->
+<!--        android:layout_width="4.5dp"-->
+<!--        android:layout_height="4.5dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_gravity="bottom|center_horizontal"-->
+<!--        android:background="@drawable/circle_shape" />-->
+    </FrameLayout>
+</LinearLayout>

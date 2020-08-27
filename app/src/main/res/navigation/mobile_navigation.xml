@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_categories"
+    >
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.technocrats.recycle.made.easy.ui.categories.CategoriesFragment"
+        android:label="@string/label"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.technocrats.recycle.made.easy.ui.calendar.CalendarFragment"
+        android:label="@string/label"
+        tools:layout="@layout/calendar_layout" />
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="com.technocrats.recycle.made.easy.ui.scan.ScanFragment"
+        android:label="@string/label"
+        tools:layout="@layout/fragment_scan" />
+    <fragment
+        android:id="@+id/navigation_donate"
+        android:name="com.technocrats.recycle.made.easy.ui.donate.DonateFragment"
+        android:label="@string/label"
+        tools:layout="@layout/fragment_donate" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.technocrats.recycle.made.easy.ui.settings.SettingsFragment"
+        android:label="@string/label"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

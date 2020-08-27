@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#bdbdbd</color>
+    <color name="grey_light">#616161</color>
+    <color name="black">#000</color>
+    <color name="colorOfDesc">#1B1B1B</color>
+    <color name="calendar_day_bg">#1B1B1B</color>
+    <color name="brown">#5D4037</color>
+    <color name="blue_grey">#455A64</color>
+    <color name="toolbar_color">#282828</color>
+    <color name="blue">#1973E8</color>
+    <color name="white">#D9FFFFFF</color>
+    <color name="days_bg">#282828</color>
+    <color name="month_bg">#1B1B1B</color>
+    <color name="green">#8BC34A</color>
+    <color name="light_brown">#795548</color>
+    <color name="dark_grey">#757575</color>
+    <color name="light_grey">#BDBDBD</color>
+    <color name="dark_green">#558b2f</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFC107</color>
+</resources>
